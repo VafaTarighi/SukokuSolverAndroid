@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SudokuSolver</string>
+    <string name="desc_load_btn">Load game board file</string>
+    <string name="desc_restart_btn">Restart the game</string>
+    <string name="desc_play_pause_btn">Play and pause the game</string>
+    <string name="default_cell_value"></string>
+</resources>

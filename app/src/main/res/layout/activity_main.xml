@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_load_game_file"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:contentDescription="@string/desc_load_btn"
+                android:src="@drawable/game_file_load_icon" />
+            <ImageButton
+                android:id="@+id/btn_restart_game"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:contentDescription="@string/desc_restart_btn"
+                android:src="@drawable/restart_game_icon" />
+            <ImageButton
+                android:id="@+id/btn_pause_play_game"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:contentDescription="@string/desc_play_pause_btn"
+                android:src="@drawable/play_game_icon"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="23sp"
+                android:textAlignment="textEnd"
+                android:layout_marginEnd="35dp"
+                android:text="@string/app_name"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/green_200" />
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120px"
+        android:layout_gravity="center"
+        >
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+           <EditText
+               android:inputType="number"
+               android:id="@+id/c1"
+               android:layout_margin="1dp"
+               android:layout_height="35dp"
+               android:layout_width="35dp"
+               android:text="@string/default_cell_value"
+               android:textAlignment="center"
+               android:textSize="23sp"
+               android:textColor="@color/green_200"
+               android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c2"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c3"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c4"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c5"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c6"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c7"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c8"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c9"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c10"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c11"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c12"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c13"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c14"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c15"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c16"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c17"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c18"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c19"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c20"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c21"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c22"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c23"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c24"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c25"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c26"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c27"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c28"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c29"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c30"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c31"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c32"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c33"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c34"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c35"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c36"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c37"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c38"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c39"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c40"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c41"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c42"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c43"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c44"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c45"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/row6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c46"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c47"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c48"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c49"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c50"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c51"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c52"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c53"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c54"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c55"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c56"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c57"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c58"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c59"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c60"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c61"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c62"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c63"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c64"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c65"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c66"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c67"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c68"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c69"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c70"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c71"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c72"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c73"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c74"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c75"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c76"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c77"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c78"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_500"
+                android:background="@color/green_200" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c79"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c80"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+
+            <EditText
+				android:inputType="number"
+                android:id="@+id/c81"
+				android:layout_margin="1dp"
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:text="@string/default_cell_value"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textColor="@color/green_200"
+                android:background="@color/green_500" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
