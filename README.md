@@ -14,5 +14,5 @@ An Implementation of Sudoku game for android 13 that can solve the game itself.
 6.28.73.4
 ```
 
-## screen shots
-![screenshot1](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Sudoku_Puzzle_by_L2G-20050714_standardized_layout.svg/800px-Sudoku_Puzzle_by_L2G-20050714_standardized_layout.svg.png)
+## gameplay
+![gameplay](https://github.com/VafaTarighi/SukokuSolverAndroid/blob/61777637d0b53feda2b1542046b4c91554ede843/game_play.gif)
